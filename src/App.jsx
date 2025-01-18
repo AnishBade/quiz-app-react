@@ -5,8 +5,11 @@ import Main from "./Main.jsx";
 function App() {
   return (
     <div className="app">
-      <Header/>
-      <Main/>
+      <Header />
+      <Main>
+        <p>1/15</p>
+        <p>Question?</p>
+      </Main>
     </div>
   );
 }
